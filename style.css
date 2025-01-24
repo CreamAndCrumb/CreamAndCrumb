@@ -1,5 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
@@ -114,6 +115,7 @@ body {
 .carousel-text h1 {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 .carousel-text p {
@@ -145,6 +147,7 @@ h2 {
     font-weight: 700;
     color: rgb(24, 51, 81);
     /* margin-left: 10px; */
+    font-family: 'EB Garamond', sans-serif;
     margin-top: 30px;
     text-align: center;
 }
@@ -233,6 +236,7 @@ h2 {
         .hero-content h1 {
             font-size: 2.8rem;
             font-weight: bold;
+            font-family: 'EB Garamond', sans-serif;
         }
 
         .hero-content p {
@@ -257,6 +261,7 @@ h2 {
             /* background: rgb(24, 51, 81); */
             background-color: transparent;
             border: 0.8px solid white;
+            color: #f0f0f0;
         }
 
         .footer {
@@ -348,7 +353,157 @@ h2 {
             padding-top: 15px;
           }
                   
-          
+          /* .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            gap: 40px;
+            background-image: url('Images/top-view-copy-space-mix-cookies-with-chocolate-waffles-black-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+        }
+        .text-content {
+            max-width: 500px;
+        }
+        .text-content h2 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #f0f0f0;
+            font-family: 'EB Garamond', sans-serif;
+        }
+        p {
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+
+        .lower-boxes {
+            display: flex;
+            width: 1000%;
+            height: auto;
+        }
+
+        .box {
+            flex: 1;
+            height: 300px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: black;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+        
+        .gift-box {
+            background-image: url('Images/assortment-pieces-cake.jpg'); 
+        }
+        
+        .vegan-treats {
+            background-image: url('Images/assortment-pieces-cake.jpg'); 
+        } */
+/*         
+        hr {
+            width: 50%;
+            border: 1px solid black;
+            margin: 10px 0;
+        } */
+/*         
+        .contact-btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #d5b0c0;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .contact-btn:hover {
+            background-color: #b995a3;
+        } */
+
+
+        .container {
+            width: 100%;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Upper Section */
+        .upper-box {
+            width: 100%;
+            height: 400px; /* Adjusted to match lower section */
+            background: url('Images/top-view-copy-space-mix-cookies-with-chocolate-waffles-black-background.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Lower Section */
+        .lower-boxes {
+            display: flex;
+            width: 100%;
+            height: 400px; /* Must match upper-box height */
+        }
+        
+        /* Styling for Gift Box & Vegan Treats */
+        .box {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* Background Images */
+        .gift-box {
+            background-image: url('Images/top-view-cheesecake-with-chocolate-oval-plate-xmas-gifts-grey-surface-free-space.jpg'); /* Replace with actual image */
+        }
+        
+        .vegan-treats {
+            background-image: url('Images/top-view-hands-holding-plate-with-dessert.jpg'); /* Replace with actual image */
+        }
+        
+        .upper-box h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #f0f0f0;
+            font-family: 'EB Garamond', sans-serif;
+        }
+        .upper-box p{
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+
+        .box h2 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #f0f0f0;
+            font-family: 'EB Garamond', sans-serif;
+        }
+
+        .box p{
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+        
 /* Responsive Design */
 @media (max-width: 1024px) {
     .carousel-container {
@@ -472,4 +627,13 @@ h2 {
         text-align: right;
         width: 50%;
       }
+
+      .lower-boxes {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        height: 300px; /* Adjusted for mobile */
+    }
 }
