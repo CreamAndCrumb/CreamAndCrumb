@@ -442,7 +442,10 @@ h2 {
         .upper-box {
             width: 100%;
             height: 400px; /* Adjusted to match lower section */
-            background: url('Images/top-view-copy-space-mix-cookies-with-chocolate-waffles-black-background.jpg') no-repeat center center/cover;
+            background-position: center;
+            background-size: cover;
+            background: url('Images/customize-img.webp') no-repeat center center/cover;
+            background-attachment: fixed;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -474,11 +477,11 @@ h2 {
         
         /* Background Images */
         .gift-box {
-            background-image: url('Images/top-view-copy-space-mix-cookies-with-chocolate-waffles-black-background.jpg'); /* Replace with actual image */
+            background-image: url('Images/gift.webp'); /* Replace with actual image */
         }
         
         .vegan-treats {
-            background-image: url('Images/top-view-copy-space-mix-cookies-with-chocolate-waffles-black-background.jpg'); /* Replace with actual image */
+            background-image: url('Images/treats.webp'); /* Replace with actual image */
         }
         
         .upper-box h1 {
