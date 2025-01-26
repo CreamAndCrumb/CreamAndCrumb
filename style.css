@@ -362,6 +362,7 @@ h2 {
         .container {
             width: 100%;
             margin-top: 60px;
+            margin-bottom: 10px;
             display: flex;
             flex-direction: column;
         }
@@ -490,7 +491,7 @@ h2 {
     .cakes a:hover {
         background-color: transparent;
         color: rgb(24, 51, 81);
-        /* border: 0.8px solid rgb(24, 51, 81); */
+        /* border: 0.1px solid rgb(24, 51, 81); */
     }
 
     .cake-section h2 {
@@ -544,6 +545,58 @@ h2 {
     font-size: 40px;
     color: white;
     cursor: pointer;
+}
+
+/* General Styles */
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2.5rem 5%;
+    /* background: linear-gradient(to right, #f8f9fa, #e3e6e8); */
+}
+
+/* Image Container */
+.about .img {
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about .img img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about .img img:hover {
+    transform: scale(1.05);
+}
+
+/* Content Section */
+.about .content {
+    flex: 1 1 40rem;
+    text-align: left;
+}
+
+.about .content h3 {
+    font-size: 3rem;
+    font-family: 'EB Garamond', sans-serif;
+    color: rgb(24, 51, 81);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+/* Paragraph Styling */
+.about .content p {
+    font-size: 1.2rem;
+    color: rgb(24, 51, 81);
+    line-height: 1.8;
+    margin-top: 1rem;
 }
 
 /* Responsive Design */
