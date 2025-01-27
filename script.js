@@ -47,11 +47,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-const footerLinks = document.getElementById('footerLinks');
-
-// You can trigger the footer visibility based on some condition, like a button click 
-//smooth the transition on the footer links 
-document.getElementById('toggleFooter').addEventListener('click', function() {
-  footerLinks.style.display = footerLinks.style.display === 'none' ? 'block':'none';
-});

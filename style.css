@@ -664,7 +664,7 @@ h2 {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-        padding: 15px;
+        padding: 10px;
     }
 
     .carousel-text h1 {
