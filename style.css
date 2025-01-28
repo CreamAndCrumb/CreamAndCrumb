@@ -655,9 +655,9 @@ h2 {
         margin-top: 80px;
     }
     .carousel-container {
-        height: 500px; /* Smaller height for mobile */
+        height: 900px; /* Smaller height for mobile */
     }
-
+    
     .carousel-text {
         width: 80%;
         bottom: 5%;
