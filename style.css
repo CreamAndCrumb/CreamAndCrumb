@@ -500,7 +500,7 @@ h2 {
         font-weight: 700;
         color: rgb(24, 51, 81);
         font-family: 'EB Garamond', sans-serif;
-        margin-top: 100px;
+        margin-top: 40px;
         margin-left: 30px;
     }
 
@@ -516,6 +516,23 @@ h2 {
     .cakes img:hover {
         transform: scale(1.1);
         cursor: pointer;
+    }
+
+    .content-treats h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: rgb(24, 51, 81);
+        /* margin-left: 10px; */
+        font-family: 'EB Garamond', sans-serif;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .content-treats p {
+        font-size: 16px;
+        color: rgb(24, 51, 81);
+        text-align: center;
+        font-weight: 400;
     }
     /* Popup styles */
 .popup {
