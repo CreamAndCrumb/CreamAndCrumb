@@ -47,3 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+function orderViaWhatsApp(productName, imageUrl) {
+    let phoneNumber = "919351596498";
+
+    let message = `Hello I want to order: *${productName}*%0AHere is the image: ${imageUrl}%0AClick the link to view the image.`;
+
+    let whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+};
