@@ -371,7 +371,7 @@ h2 {
         /* Upper Section */
         .upper-box {
             width: 100%;
-            height: 500px; /* Adjusted to match lower section */
+            height: 700px; /* Adjusted to match lower section */
             background-position: center;
             background-size: cover;
             background: url('Images/customize-img.webp') no-repeat center center/cover;
@@ -385,11 +385,11 @@ h2 {
         }
         
         /* Lower Section */
-        .lower-boxes {
+        /* .lower-boxes {
             display: flex;
             width: 100%;
-            height: 400px; /* Must match upper-box height */
-        }
+            height: 400px;
+        } */
         
         /* Styling for Gift Box & Vegan Treats */
         .box {

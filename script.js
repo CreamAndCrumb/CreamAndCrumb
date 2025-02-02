@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function orderViaWhatsApp(productName, imageUrl) {
-    let phoneNumber = "919351596498";
+    let phoneNumber = "918824470327";
 
     let message = `Hello I want to order: *${productName}*%0AHere is the image: ${imageUrl}%0AClick the link to view the image.`;
 
